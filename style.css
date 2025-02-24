@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 9px solid black;
+    border-radius: 30px;
+}
+
+.box-1 {
+    background-color: lightcoral;
+}
+
+.box-2 {
+    background-color: lightseagreen;
+}
+
+.box-3 {
+    background-color: orange;
+}
+
+.box-4 {
+    background-color: lightskyblue;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: green;
+}
+
